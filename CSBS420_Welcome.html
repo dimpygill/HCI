@@ -3,19 +3,183 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Welcome to CSBS 420 — Human-Computer Interaction</title>
+<title>Welcome to CSBS 420 — Human-Computer Interface</title>
 <style>
 :root{--ink:#203049;--muted:#506079;--blue:#254c9b;--line:#dce4ef;--paper:#fff;--bg:#f3f6fb}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 system-ui,-apple-system,"Segoe UI",sans-serif}main{max-width:1050px;margin:auto;padding:38px 26px 56px}header{background:#17335a;color:white;border-radius:22px;padding:46px 44px;margin-bottom:26px}.eyebrow{text-transform:uppercase;letter-spacing:.15em;font-size:13px;font-weight:700;color:#bed9ff}h1{font-size:clamp(30px,5vw,46px);line-height:1.15;letter-spacing:-.025em;margin:15px 0 22px}header p{max-width:760px;color:#e2ebf7;margin:0}.meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.meta span{border:1px solid #607897;border-radius:30px;padding:5px 14px;font-size:14px}nav{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px}nav a{color:var(--blue);background:white;border:1px solid var(--line);padding:8px 16px;border-radius:8px;text-decoration:none;font-size:15px}a:focus-visible{outline:3px solid #e2a624;outline-offset:4px}section{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:28px 32px;margin:22px 0;scroll-margin-top:20px}h2{font-size:26px;line-height:1.3;margin:0 0 15px;color:#183d70}h3{font-size:18px;line-height:1.4;margin:0 0 8px}p{margin:12px 0}blockquote{margin:22px 0;padding:18px 24px;background:#edf4ff;border-left:4px solid #3264b5;font-size:21px;font-weight:600}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{padding:20px;background:#f7f9fd;border:1px solid var(--line);border-radius:12px}.card p{margin:0;color:var(--muted)}ul,ol{padding-left:25px}li{margin:7px 0}.topics{columns:2;column-gap:38px}.topics li{break-inside:avoid}.steps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;counter-reset:stage}.steps li{counter-increment:stage;border:1px solid var(--line);background:#f7f9fd;border-radius:10px;padding:15px;margin:0;font-weight:600}.steps li:before{content:counter(stage,decimal-leading-zero);display:block;font-size:13px;color:var(--blue);letter-spacing:.1em;margin-bottom:5px}.note{color:var(--muted)}.start{background:#eef5ff;border-color:#c5d8f2}.closing{border-top:1px solid var(--line);padding-top:22px;text-align:center;color:var(--blue);font-weight:600}footer{text-align:center;font-size:13px;color:var(--muted);margin-top:30px}@media(max-width:650px){main{padding:18px 15px 32px}header{padding:30px 24px}section{padding:24px 20px}.grid,.steps{grid-template-columns:1fr}.topics{columns:1}h2{font-size:23px}}@media print{body{background:white;font-size:11pt}main{max-width:none;padding:0}header{border-radius:0;padding:24px;background:white;color:var(--ink);border-bottom:2px solid var(--blue)}header p,.eyebrow{color:var(--ink)}.meta span{border-color:var(--line)}nav{display:none}section{break-inside:avoid;padding:18px 20px}h1{font-size:28pt}.steps{grid-template-columns:repeat(3,1fr)}}
+a{color:#254c9b}.schedule{width:100%;border-collapse:collapse;margin:16px 0}.schedule caption{text-align:left;font-weight:600;margin-bottom:8px}.schedule th,.schedule td{padding:13px;text-align:left;border:1px solid #dce4ef}.schedule th{background:#edf4ff}#instructor,#support{scroll-margin-top:20px}#support p,#instructor p{line-height:1.7}@media(max-width:650px){#support table,#support tbody,#support tr,#support td{display:block;width:100%!important}#support table{border-spacing:0}#support td{margin:10px 0}}
 </style>
 </head>
 <body><main>
-<header><div class="eyebrow">Welcome to CSBS 420</div><h1>Human-Computer<br>Interaction</h1><p>Design technology that people can understand, use, and enjoy. Explore how human needs shape effective, accessible, and easy-to-use interfaces.</p><div class="meta"><span>4 Credits</span><span>12-Week Course</span><span>Design • Implement • Evaluate</span></div></header>
-<nav aria-label="Welcome page sections"><a href="#about">About HCI</a><a href="#learn">What you’ll learn</a><a href="#process">Our design process</a><a href="#project">Your project</a><a href="#start">Get started</a></nav>
-<section id="about"><h2>Welcome!</h2><p>Every day, we interact with websites, mobile apps, computers, kiosks, smart devices, and other digital systems. Some are easy and intuitive to use. Others leave us wondering: <strong>“Why did they design it this way?”</strong></p><p>In this course, we will explore that question from a computer science perspective.</p><h3>What is Human-Computer Interaction?</h3><p><strong>Human-Computer Interaction (HCI)</strong> is the study of how people interact with computers and other digital systems—and how we can design those interactions to be more effective, efficient, accessible, and easy to use.</p><p>As computer science students, you have spent considerable time learning how to make software work correctly. In this course, we will add another question:</p><blockquote>Can people actually use the software effectively?</blockquote><p>A program can be technically correct and still provide a poor experience for its users. We will study how people perceive information, remember things, make decisions, perform tasks, make mistakes, and respond to interface design.</p></section>
+<header><div class="eyebrow">Welcome to CSBS 420</div><h1>Human-Computer<br>Interface</h1><p>Design technology that people can understand, use, and enjoy. Explore how human needs shape effective, accessible, and easy-to-use interfaces.</p><div class="meta"><span>4 Credits</span><span>4.0 Hours of Lecture</span><span>12-Week Course</span><span>Design • Implement • Evaluate</span></div></header>
+<nav aria-label="Welcome page sections"><a href="#details">Course details</a><a href="#instructor">Instructor</a><a href="#about">About HCI</a><a href="#learn">What you’ll learn</a><a href="#process">Our design process</a><a href="#project">Your project</a><a href="#support">Support &amp; policies</a><a href="#start">Get started</a></nav>
+<section id="details"><h2>Course details</h2><h3>CSBS 420 — Human-Computer Interface</h3><p><strong>Credits/Units:</strong> 4 &nbsp;•&nbsp; <strong>Lecture:</strong> 4.0 hours</p><div style="overflow-x:auto"><table class="schedule"><caption>Class meeting schedule</caption><thead><tr><th scope="col">Format</th><th scope="col">Location</th><th scope="col">Days &amp; Time</th></tr></thead><tbody><tr><td>In person</td><td>STEM Building, Room 126</td><td>Monday &amp; Wednesday, 12:00–1:50 PM</td></tr></tbody></table></div><p><strong>Prerequisites:</strong> <a href="https://catalog.clark.edu/search/?P=CSE%20223">CSE 223</a> and <a href="https://catalog.clark.edu/search/?P=ENGL%26%20235">ENGL&amp; 235</a> (grade of “C” or higher), and admission into the BS Computer Science program. Admission into the program is required for enrollment.</p><h3>Catalog description</h3><p>Introduction to Human-Computer Interaction with an emphasis on developing effective and easy-to-use graphical user interfaces. Cannot have credit for both CSE 420 and <a href="https://catalog.clark.edu/search/?P=CSBS%20420">CSBS 420</a>. [GE]</p></section><div id="instructor">
+  <div style="background: #ffffff; border-radius: 8px; margin-bottom: 20px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,55,103,.1);">
+    <div style="background: #003767; padding: 14px 24px; display: flex; align-items: center;">
+      <span style="font-size: 16px; margin-right: 10px;">👩‍🏫</span>
+      <h2 style="font-family: Georgia, serif; color: #ffffff; font-size: 1.1rem; margin: 0;">About Ms. Gill — Dimpy Gill</h2>
+    </div>
+    <div style="padding: 24px 28px;">
+      <p style="color: #4a5568; margin: 0 0 12px 0;">I'm so excited to have you in this course!</p>
+      <p style="color: #4a5568; margin: 0 0 12px 0;">My teaching philosophy revolves around staying connected to how adult learners engage with content and ensuring that learning is personalized to each individual's needs. Just like no two snowflakes are alike, every student brings a unique set of strengths, challenges, and learning preferences — and I design my courses with that in mind. I incorporate visual, auditory, and hands-on teaching strategies so that every learner has a genuine opportunity to succeed.</p>
+      <p style="color: #4a5568; margin: 0 0 12px 0;">Each student’s learning style is different. Please feel free to request a one-on-one meeting to discuss what would help you learn effectively. For formal accommodations, please review the Disability Access Center information below.</p>
+      <p style="color: #4a5568; margin: 0 0 12px 0;">If you have suggestions for improving course materials or simply want to talk about your learning experience, please reach out via <strong>Canvas message</strong>. I'm always open to feedback.</p>
+      <p style="color: #4a5568; margin: 0 0 12px 0;">And if personal circumstances outside of class are affecting your performance, please don't hesitate to come talk to me. I'm here to support you.</p>
+      <p style="color: #4a5568; margin: 0 0 16px 0;">I look forward to working with each of you this term!</p>
+      <div style="background: #ddeaf5; border-radius: 6px; padding: 14px 18px; color: #003767; font-size: 13.5px;">
+        <strong style="display: block; margin-bottom: 10px;">Contact &amp; Office</strong>
+        📧 dgill@clark.edu<br/><br/>
+        🏫 Classroom: STEM Building, Room 126<br/><br/>
+        🏢 Office: STEM Building, Room 113<br/><br/>
+        💬 Message me on Canvas anytime<br/><br/>
+        ⏱️ Replies within <strong>48 hours</strong>.
+      </div>
+    </div>
+  </div>
+
+  </div><section id="about"><h2>Welcome!</h2><p>Every day, we interact with websites, mobile apps, computers, kiosks, smart devices, and other digital systems. Some are easy and intuitive to use. Others leave us wondering: <strong>“Why did they design it this way?”</strong></p><p>In this course, we will explore that question from a computer science perspective.</p><h3>What is Human-Computer Interaction?</h3><p><strong>Human-Computer Interaction (HCI)</strong> is the study of how people interact with computers and other digital systems—and how we can design those interactions to be more effective, efficient, accessible, and easy to use.</p><p>As computer science students, you have spent considerable time learning how to make software work correctly. In this course, we will add another question:</p><blockquote>Can people actually use the software effectively?</blockquote><p>A program can be technically correct and still provide a poor experience for its users. We will study how people perceive information, remember things, make decisions, perform tasks, make mistakes, and respond to interface design.</p></section>
 <section id="learn"><h2>What will you learn?</h2><p>You will explore these ideas and apply them to an interactive system:</p><ul class="topics"><li>HCI and usability</li><li>Human perception, attention, memory, and cognitive load</li><li>User needs and user-centered design</li><li>Interaction design principles</li><li>Graphical User Interface (GUI) design</li><li>Visual hierarchy, layout, typography, and color</li><li>Wireframes and prototypes</li><li>Accessibility and inclusive design</li><li>GUI implementation and event-driven interaction</li><li>Usability evaluation</li><li>User testing and usability data</li><li>Emerging interaction, including AI and conversational interfaces</li></ul></section>
 <section id="process"><h2>Our design process</h2><p>Throughout the course, we will follow a human-centered design process:</p><ol class="steps"><li>Understand the problem</li><li>Understand the users</li><li>Identify tasks and requirements</li><li>Design</li><li>Prototype</li><li>Implement</li><li>Test with users</li><li>Evaluate</li><li>Improve the design</li></ol><p class="note"><strong>Design is iterative.</strong> We rarely create the perfect interface on the first attempt. We design, evaluate, learn from users, and improve—returning to earlier steps as needed.</p></section>
 <section id="project"><h2>Your HCI Design Project</h2><p>You will identify a real-world problem involving human interaction with technology and progressively develop a solution. Your project will grow in stages as you learn about users, design, prototyping, accessibility, implementation, and usability evaluation.</p><p>Possible project ideas include:</p><div class="grid"><div class="card"><h3>Campus & learning</h3><ul><li>Course registration</li><li>Student advising</li><li>Campus navigation</li><li>Library system</li></ul></div><div class="card"><h3>Everyday tasks</h3><ul><li>Healthcare appointment scheduling</li><li>Restaurant ordering</li><li>Personal finance or fitness</li><li>Event registration or task management</li></ul></div></div><p><strong>Understand the user and the problem before designing the solution.</strong> Your design decisions will become more informed as you gather evidence and evaluate your work.</p></section>
 <section><h2>A different way of thinking about software</h2><p>When developing software, we often ask, <strong>“Does the program work?”</strong> In HCI, we also ask:</p><div class="grid"><div class="card"><h3>Understanding & efficiency</h3><p>Can users understand the interface, find what they need, and complete their tasks efficiently?</p></div><div class="card"><h3>Mistakes & feedback</h3><p>Does the system help prevent mistakes and provide useful feedback when something goes wrong?</p></div><div class="card"><h3>Accessibility</h3><p>Can people with different abilities use the system?</p></div><div class="card"><h3>Evidence</h3><p>How do we know whether our design supports users effectively?</p></div></div></section>
-<section id="start" class="start"><div class="eyebrow" style="color:#254c9b">Your first steps</div><h2>Begin with Module 0: Course Orientation</h2><ol><li>Review the course syllabus and expectations.</li><li>Become familiar with the organization of the Canvas course.</li><li>Review the assignments and grading structure.</li><li>Learn about the HCI course project.</li><li>Complete the Course Orientation activities.</li><li>Introduce yourself to the class.</li></ol><h3>Then continue to Module 1: What Is Human-Computer Interaction?</h3><p>We will begin with something you already have extensive experience with: <strong>using technology.</strong> You will start thinking like an HCI designer and a computer scientist studying the user.</p><p>Open <strong>Modules</strong> in Canvas to begin.</p></section>
-<p class="closing">Welcome to CSBS 420. Let’s get started!</p><footer>CSBS 420 • Human-Computer Interaction</footer>
+<div id="support">  <!-- RESOURCES -->
+  <div style="background: #ffffff; border-radius: 8px; margin-bottom: 20px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,55,103,.1);">
+    <div style="background: #003767; padding: 14px 24px;">
+      <span style="font-size: 16px; margin-right: 10px;">🛟</span>
+      <span style="font-family: Georgia, serif; color: #ffffff; font-size: 1.1rem; font-weight: bold;">Resources &amp; Support Services</span>
+    </div>
+    <div style="padding: 24px 28px;">
+
+      <p style="font-weight: bold; color: #003767; font-size: 14.5px; margin: 0 0 12px 0;">Technical Support</p>
+      <table style="width: 100%; border-collapse: separate; border-spacing: 10px; margin-bottom: 20px;">
+        <tr>
+          <td style="background: #f2f6fb; border: 1px solid #e0eaf4; border-radius: 6px; padding: 14px; vertical-align: top; width: 50%;">
+            <p style="font-weight: bold; color: #003767; font-size: 13px; margin: 0 0 6px 0;">Tech Hub</p>
+            <p style="color: #4a5568; font-size: 13px; margin: 0;">Help with Canvas, Clark Gmail, Office apps, and passwords. Scarpelli Hall 135 · techhub@clark.edu · 360-992-2010</p>
+          </td>
+          <td style="background: #f2f6fb; border: 1px solid #e0eaf4; border-radius: 6px; padding: 14px; vertical-align: top; width: 50%;">
+            <p style="font-weight: bold; color: #003767; font-size: 13px; margin: 0 0 6px 0;">ABT Center</p>
+            <p style="color: #4a5568; font-size: 13px; margin: 0;">Student tech support for Canvas, Gmail, Google, Office Suite — via Zoom or in-person, no appointment needed. Applied Arts 4, Room 106 · 360-992-2445</p>
+          </td>
+        </tr>
+        <tr>
+          <td style="background: #f2f6fb; border: 1px solid #e0eaf4; border-radius: 6px; padding: 14px; vertical-align: top;">
+            <p style="font-weight: bold; color: #003767; font-size: 13px; margin: 0 0 6px 0;">Canvas Help</p>
+            <p style="color: #4a5568; font-size: 13px; margin: 0;">Click "Help" in Canvas → "Report a Problem" to submit a tech ticket. Responses go to your Clark Gmail. Also try "Search the Canvas Guides."</p>
+          </td>
+          <td style="background: #f2f6fb; border: 1px solid #e0eaf4; border-radius: 6px; padding: 14px; vertical-align: top;">
+            <p style="font-weight: bold; color: #003767; font-size: 13px; margin: 0 0 6px 0;">Microsoft Office 365</p>
+            <p style="color: #4a5568; font-size: 13px; margin: 0;">Free to all enrolled students — download on up to 5 devices + 1 TB OneDrive storage.</p>
+          </td>
+        </tr>
+      </table>
+
+      <p style="font-weight: bold; color: #003767; font-size: 14.5px; margin: 0 0 12px 0;">Academic Support</p>
+      <table style="width: 100%; border-collapse: separate; border-spacing: 10px; margin-bottom: 20px;">
+        <tr>
+          <td style="background: #f2f6fb; border: 1px solid #e0eaf4; border-radius: 6px; padding: 14px; vertical-align: top; width: 50%;">
+            <p style="font-weight: bold; color: #003767; font-size: 13px; margin: 0 0 6px 0;">Student Success Coaches</p>
+            <p style="color: #4a5568; font-size: 13px; margin: 0;">One-on-one coaching for study skills, organization, and personal support. PUB 002 or Zoom — schedule via the "schedule your session" button.</p>
+          </td>
+          <td style="background: #f2f6fb; border: 1px solid #e0eaf4; border-radius: 6px; padding: 14px; vertical-align: top; width: 50%;">
+            <p style="font-weight: bold; color: #003767; font-size: 13px; margin: 0 0 6px 0;">Tutoring Services</p>
+            <p style="color: #4a5568; font-size: 13px; margin: 0;">FREE individualized tutoring for most Clark courses. In-person, virtual, by appointment or drop-in. Also available: eTutoringOnline.org (link in Canvas).</p>
+          </td>
+        </tr>
+        <tr>
+          <td style="background: #f2f6fb; border: 1px solid #e0eaf4; border-radius: 6px; padding: 14px; vertical-align: top;">
+            <p style="font-weight: bold; color: #003767; font-size: 13px; margin: 0 0 6px 0;">Clark College Librarians</p>
+            <p style="color: #4a5568; font-size: 13px; margin: 0;">One-on-one help with research and citations. Visit the library or chat online.</p>
+          </td>
+          <td style="background: #f2f6fb; border: 1px solid #e0eaf4; border-radius: 6px; padding: 14px; vertical-align: top;">
+            <p style="font-weight: bold; color: #003767; font-size: 13px; margin: 0 0 6px 0;">Advising Services</p>
+            <p style="color: #4a5568; font-size: 13px; margin: 0;">Co-create your academic plan, evaluate transcripts, and plan for university transfer. In-person and Zoom appointments available up to two weeks in advance.</p>
+          </td>
+        </tr>
+      </table>
+
+      <p style="font-weight: bold; color: #003767; font-size: 14.5px; margin: 0 0 12px 0;">Student Wellbeing &amp; Basic Needs</p>
+      <table style="width: 100%; border-collapse: separate; border-spacing: 10px; margin-bottom: 20px;">
+        <tr>
+          <td style="background: #f2f6fb; border: 1px solid #e0eaf4; border-radius: 6px; padding: 14px; vertical-align: top; width: 50%;">
+            <p style="font-weight: bold; color: #003767; font-size: 13px; margin: 0 0 6px 0;">Student Wellness Center</p>
+            <p style="color: #4a5568; font-size: 13px; margin: 0;">Physical and mental health services supporting wellness and academic success. Committed to social equity and inclusion for all student identities.</p>
+          </td>
+          <td style="background: #f2f6fb; border: 1px solid #e0eaf4; border-radius: 6px; padding: 14px; vertical-align: top; width: 50%;">
+            <p style="font-weight: bold; color: #003767; font-size: 13px; margin: 0 0 6px 0;">Penguin Pantry</p>
+            <p style="color: #4a5568; font-size: 13px; margin: 0;">Reducing hunger on campus. Any student may access pantry services, including monthly pre-packaged food boxes.</p>
+          </td>
+        </tr>
+        <tr>
+          <td style="background: #f2f6fb; border: 1px solid #e0eaf4; border-radius: 6px; padding: 14px; vertical-align: top;">
+            <p style="font-weight: bold; color: #003767; font-size: 13px; margin: 0 0 6px 0;">Basic Needs Hub</p>
+            <p style="color: #4a5568; font-size: 13px; margin: 0;">Help with food, housing, and financial challenges. Gaiser Hall, Room 216 · basicneeds@clark.edu · 360-992-2766</p>
+          </td>
+          <td style="background: #f2f6fb; border: 1px solid #e0eaf4; border-radius: 6px; padding: 14px; vertical-align: top;">
+            <p style="font-weight: bold; color: #003767; font-size: 13px; margin: 0 0 6px 0;">Office of Diversity, Equity &amp; Inclusion</p>
+            <p style="color: #4a5568; font-size: 13px; margin: 0;">Supports systemically non-dominant groups with academic, personal, and professional development. Everyone is welcome at the Diversity Center.</p>
+          </td>
+        </tr>
+      </table>
+
+      <div style="background: #fff3cd; border: 1px solid #ffc107; border-radius: 6px; padding: 14px 20px; font-size: 13.5px; color: #665000;">
+        <strong>🚨 Safety &amp; Crisis Resources</strong><br/>
+        If you are having a mental health crisis or thoughts of suicide, call or text <strong>988</strong> (Suicide &amp; Crisis Lifeline, 24/7) or the Clark County Crisis Line: <strong>1-800-626-8137</strong>. For campus emergencies, call Security at <strong>360-992-2133</strong>, use the Rave Guardian app, or call <strong>911</strong>.
+      </div>
+    </div>
+  </div>
+
+  <!-- POLICIES -->
+  <div style="background: #ffffff; border-radius: 8px; margin-bottom: 20px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,55,103,.1);">
+    <div style="background: #003767; padding: 14px 24px;">
+      <span style="font-size: 16px; margin-right: 10px;">📋</span>
+      <span style="font-family: Georgia, serif; color: #ffffff; font-size: 1.1rem; font-weight: bold;">College Policies</span>
+    </div>
+    <div style="padding: 24px 28px;">
+
+      <div style="border-bottom: 1px solid #e0eaf4; padding-bottom: 18px; margin-bottom: 18px;">
+        <p style="font-weight: bold; color: #003767; font-size: 14.5px; margin: 0 0 8px 0;">ADA Accommodations</p>
+        <p style="color: #4a5568; font-size: 13.5px; margin: 0 0 10px 0;">Clark College's Disability Access Center (DAC) coordinates accommodations for students with disabilities and/or temporary health conditions. All accommodations must first be approved through DAC. If you believe you may need accommodations, contact DAC as soon as possible. Once accommodations are established, please contact me to discuss your needs in this course. Remember to request accommodations each term in myAccess. Exams at DAC require at least 5 business days' notice.</p>
+        <div style="background: #ddeaf5; border-radius: 6px; padding: 12px 16px; color: #003767; font-size: 13px;">
+          <strong>Disability Access Center</strong> &nbsp;·&nbsp; 📞 360-992-2314 &nbsp;·&nbsp; VP (ASL): 360-991-0901 &nbsp;·&nbsp; 📧 dac@clark.edu &nbsp;·&nbsp; 📍 Penguin Union Building (PUB), Room 002
+        </div>
+      </div>
+
+      <div style="border-bottom: 1px solid #e0eaf4; padding-bottom: 18px; margin-bottom: 18px;">
+        <p style="font-weight: bold; color: #003767; font-size: 14.5px; margin: 0 0 8px 0;">Non-Discrimination Policy</p>
+        <p style="color: #4a5568; font-size: 13.5px; margin: 0 0 10px 0;">Clark College expressly prohibits discrimination on the basis of race, color, national origin, age, disability, pregnancy, genetic information, sex, sexual orientation, gender identity, marital status, creed, religion, veteran or military status, citizenship, immigration status, or use of a trained guide dog or service animal. Harassment is a form of discrimination.</p>
+        <div style="background: #ddeaf5; border-radius: 6px; padding: 12px 16px; color: #003767; font-size: 13px;">
+          <strong>Office of People and Culture</strong> &nbsp;·&nbsp; Baird Hall 133 &nbsp;·&nbsp; 📞 360-992-2105 &nbsp;·&nbsp; 📧 opc@clark.edu
+        </div>
+      </div>
+
+      <div style="border-bottom: 1px solid #e0eaf4; padding-bottom: 18px; margin-bottom: 18px;">
+        <p style="font-weight: bold; color: #003767; font-size: 14.5px; margin: 0 0 8px 0;">Title IX &amp; Sexual Misconduct</p>
+        <p style="color: #4a5568; font-size: 13.5px; margin: 0;">Clark College is committed to helping individuals achieve their educational and professional goals in a community free from sexual misconduct. If you or someone you care about has been impacted, you are not alone — support, options, and resources are available. Contact the Student Wellness/Counseling and Health Center for confidential support.</p>
+      </div>
+
+      <div style="border-bottom: 1px solid #e0eaf4; padding-bottom: 18px; margin-bottom: 18px;">
+        <p style="font-weight: bold; color: #003767; font-size: 14.5px; margin: 0 0 8px 0;">Student Rights &amp; Responsibilities</p>
+        <p style="color: #4a5568; font-size: 13.5px; margin: 0;">Students have the right to freedom of access to education, absence for reasons of faith or conscience, FERPA protections, and more. Requests for faith-based absences must be made within the first two weeks of the quarter — please reach out to me directly and I am happy to support you.</p>
+      </div>
+
+      <div style="border-bottom: 1px solid #e0eaf4; padding-bottom: 18px; margin-bottom: 18px;">
+        <p style="font-weight: bold; color: #003767; font-size: 14.5px; margin: 0 0 8px 0;">Code of Student Conduct</p>
+        <p style="color: #4a5568; font-size: 13.5px; margin: 0;">Clark College believes everyone deserves to learn, work, and participate in a community where they feel welcome, respected, and supported. The Code of Student Conduct describes shared expectations for behavior that support a safe, inclusive, and respectful college community. Please review it on the Clark website.</p>
+      </div>
+
+      <div style="border-bottom: 1px solid #e0eaf4; padding-bottom: 18px; margin-bottom: 18px;">
+        <p style="font-weight: bold; color: #003767; font-size: 14.5px; margin: 0 0 8px 0;">Career Services</p>
+        <p style="color: #4a5568; font-size: 13.5px; margin: 0;">Career Services provides resources and strategies to support your career and employment goals. 📞 360-992-2902 &nbsp;·&nbsp; 📧 careerservices@clark.edu</p>
+      </div>
+
+      <div>
+        <p style="font-weight: bold; color: #003767; font-size: 14.5px; margin: 0 0 8px 0;">Veterans Center of Excellence</p>
+        <p style="color: #4a5568; font-size: 13.5px; margin: 0;">Serving U.S. military service members with resources, community, and support. PUB 015 &nbsp;·&nbsp; 📞 360-992-2073 &nbsp;·&nbsp; 📧 Vetresources@clark.edu</p>
+      </div>
+
+    </div>
+  </div>
+
+</div><section id="start" class="start"><div class="eyebrow" style="color:#254c9b">Your first steps</div><h2>Begin with Module 0: Course Orientation</h2><ol><li>Review the course syllabus and expectations.</li><li>Become familiar with the organization of the Canvas course.</li><li>Review the assignments and grading structure.</li><li>Learn about the HCI course project.</li><li>Complete the Course Orientation activities.</li><li>Introduce yourself to the class.</li></ol><h3>Then continue to Module 1: What Is Human-Computer Interaction?</h3><p>We will begin with something you already have extensive experience with: <strong>using technology.</strong> You will start thinking like an HCI designer and a computer scientist studying the user.</p><p>Open <strong>Modules</strong> in Canvas to begin.</p></section>
+<p class="closing">Welcome to CSBS 420. Let’s get started!</p><footer>CSBS 420 • Human-Computer Interface • Clark College</footer>
 </main></body></html>
